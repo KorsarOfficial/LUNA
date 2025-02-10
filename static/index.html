@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Планировщик лунной базы</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Планировщик лунной базы</h1>
+            <nav>
+                <button id="uploadTerrainBtn">Загрузить рельеф</button>
+                <button id="addObjectBtn">Добавить объект</button>
+                <button id="analyzeBtn">Анализ участка</button>
+                <button id="exportBtn">Экспорт плана</button>
+            </nav>
+        </header>
+
+        <main>
+            <div class="map-container">
+                <canvas id="mapCanvas"></canvas>
+                <div id="objectInfo" class="info-panel"></div>
+            </div>
+
+            <div class="sidebar">
+                <div class="object-list">
+                    <h3>Размещенные объекты</h3>
+                    <ul id="objectsList"></ul>
+                </div>
+                
+                <div class="object-params" style="display: none;">
+                    <h3>Параметры объекта</h3>
+                    <form id="objectForm">
+                        <!-- Форма будет заполняться динамически -->
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/objects.js"></script>
+</body>
+</html> 

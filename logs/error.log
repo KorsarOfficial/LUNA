@@ -1,0 +1,36 @@
+2025-02-06 19:57:55 - ERROR - [error] - Error occurred: {'error_type': 'TypeError', 'error_message': "Timer.__init__() missing 2 required positional arguments: 'interval' and 'function'", 'context': {'endpoint': 'root', 'method': 'GET', 'args': (), 'kwargs': {}}}
+Traceback (most recent call last):
+  File "C:\Projects\LUNA\app.py", line 58, in wrapper
+    start_time = Timer()
+                 ^^^^^^^
+TypeError: Timer.__init__() missing 2 required positional arguments: 'interval' and 'function'
+2025-02-06 19:57:56 - ERROR - [error] - Error occurred: {'error_type': 'TypeError', 'error_message': "Timer.__init__() missing 2 required positional arguments: 'interval' and 'function'", 'context': {'endpoint': 'root', 'method': 'GET', 'args': (), 'kwargs': {}}}
+Traceback (most recent call last):
+  File "C:\Projects\LUNA\app.py", line 58, in wrapper
+    start_time = Timer()
+                 ^^^^^^^
+TypeError: Timer.__init__() missing 2 required positional arguments: 'interval' and 'function'
+2025-02-06 19:59:41 - ERROR - [error] - Error occurred: {'error_type': 'AttributeError', 'error_message': "'tuple' object has no attribute 'status_code'", 'context': {'endpoint': 'add_object', 'method': 'POST', 'args': (), 'kwargs': {}}}
+Traceback (most recent call last):
+  File "C:\Projects\LUNA\app.py", line 74, in wrapper
+    log_response(logger, response, include_body=True)
+  File "C:\Projects\LUNA\logger_config.py", line 68, in log_response
+    'status': response.status_code,
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'status_code'
+2025-02-06 19:59:46 - ERROR - [error] - Error occurred: {'error_type': 'AttributeError', 'error_message': "'tuple' object has no attribute 'status_code'", 'context': {'endpoint': 'upload_terrain', 'method': 'POST', 'args': (), 'kwargs': {}}}
+Traceback (most recent call last):
+  File "C:\Projects\LUNA\app.py", line 74, in wrapper
+    log_response(logger, response, include_body=True)
+  File "C:\Projects\LUNA\logger_config.py", line 68, in log_response
+    'status': response.status_code,
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'status_code'
+2025-02-06 19:59:48 - ERROR - [error] - Error occurred: {'error_type': 'AttributeError', 'error_message': "'tuple' object has no attribute 'status_code'", 'context': {'endpoint': 'add_object', 'method': 'POST', 'args': (), 'kwargs': {}}}
+Traceback (most recent call last):
+  File "C:\Projects\LUNA\app.py", line 74, in wrapper
+    log_response(logger, response, include_body=True)
+  File "C:\Projects\LUNA\logger_config.py", line 68, in log_response
+    'status': response.status_code,
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'status_code'
