@@ -20,7 +20,7 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/yourusername/luna.git
+git clone https://github.com/KorsarOfficial/LUNA.git
 cd luna
 ```
 
@@ -83,7 +83,3 @@ luna/
 - `LunarMap` - Класс для работы с картой
 - `LunarObject` - Класс для работы с объектами инфраструктуры
 - `LunarBaseManager` - Менеджер объектов базы
-
-## Лицензия
-
-MIT 
